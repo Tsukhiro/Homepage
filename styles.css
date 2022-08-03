@@ -37,7 +37,7 @@ h1 {
     width: 50%;
 }
 
-p {
+.about-me {
     color: white;
     font-size: 16px;
     font-style: normal;
@@ -64,9 +64,27 @@ a {
 .box {
     width: 350px;
     height: 230px;
+
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.box-description {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    color: white;
+    padding: 15px;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+
 }
