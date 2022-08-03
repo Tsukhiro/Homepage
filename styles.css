@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: red;
 }
 
 .nav-bar {
@@ -57,8 +57,11 @@ a {
 .box-container {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
+    margin-top: 60px;
+    padding-left: 40px;
+    gap: 30px;
 }
 
 .box {
@@ -88,3 +91,4 @@ button {
     border: none;
 
 }
+
