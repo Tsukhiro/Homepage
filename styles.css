@@ -10,6 +10,8 @@ body {
     width: 100vw;
     height: 100vh;
     background: url(./assets/minimalist-night-city.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .nav-bar {
@@ -74,7 +76,7 @@ a {
     width: 350px;
     height: 230px;
     backdrop-filter: blur(5px);
-
+    border-radius: 15px;
 }
 
 img {
@@ -92,7 +94,7 @@ img {
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
     position: relative;
-    
+    border-radius: 10px;
 }
 
 button {
