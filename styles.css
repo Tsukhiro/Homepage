@@ -12,6 +12,7 @@ body {
     background: url(./assets/minimalist-night-city.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .nav-bar {
