@@ -36,8 +36,6 @@ section {
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    flex-wrap: wrap;
-    z-index: 1;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     border-radius: 60px;

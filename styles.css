@@ -42,12 +42,22 @@ h1 {
     width: 90%;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 70px;
+    width: 100%;
+}
+
 .about-me {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     padding: 30px 0 0 55px;
-    width: 90%;
+    width: 70%;
 }
 
 a {
@@ -96,5 +106,6 @@ img {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
