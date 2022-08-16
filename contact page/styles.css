@@ -9,7 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url(../assets/fundo.jpg);
+    background: url(../assets/bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
