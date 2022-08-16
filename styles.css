@@ -19,7 +19,7 @@ body {
     display: flex;
     width: 100%;
     height: 71px;
-    padding: 32px 48px;
+    padding: 35px 50px;
     align-items: center;
     justify-content: space-between;
 }
@@ -33,7 +33,7 @@ body {
     justify-content: space-between;
 }
 
-h1 {
+.hello {
     color: white;
     font-size: 64px;
     font-style: normal;
@@ -89,7 +89,7 @@ a {
     border-radius: 15px;
 }
 
-img {
+.img-project {
     width: 350px;
     height: 200px;
     border-radius: 15px;
@@ -107,5 +107,78 @@ img {
     position: relative;
     border-radius: 10px;
     margin-bottom: 50px;
+}
+
+.btn-more {
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-project {
+    width: 150px;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-project img {
+    width: 30px;
+    display: none;
+}
+
+.btn-project:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.btn-project:hover img {
+    display: block;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-social {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.container-social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 60px;
+    margin-top: 5%;
+}
+
+.connect-me {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: -2.5px;
+    text-align: center;
 }
 
