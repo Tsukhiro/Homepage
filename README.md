@@ -2,7 +2,7 @@
 
 <br>
 
-<p align="center">O projeto elaborado trata-se da minha Homepage, utilizei os efeitos do Vanilla tilts nos card dos projetos. </p>
+<p align="center"></p>
 <h4 align="center"> 
 	🚧 Status: Em andamento  🚧
 </h4>
