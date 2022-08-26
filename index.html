@@ -14,8 +14,8 @@
 <body>
     
     <nav class="nav-bar">
-        <p></p>
         <a href="./contact-page/contact.html"><button class="btn-project">Contato <img src="./assets/arrow.png"></button></a>
+
     </nav>
 
     <section class="text-section">
@@ -26,35 +26,44 @@
         </p>
     </section>
 
-    <section class="box-container">
-
-        <div class="box">
-           <a href="https://pc-web.netlify.app/" target="_blank"><img class="img-project" src="./assets/projects/project-1.PNG" alt="Projeto de página para vender computador (SPA)"></a>
-            <div class="box-description">
-                <p class="description">Single page application (SPA)</p>
+    <section class="wrapper">
+        <div class="parent-tab">
+            <input type="radio" name="tab" id="tab-1" checked>
+            <label for="tab-1">
+              <span>Tecnologias</span>
+            </label>
+            <div class="content">
+              <img class="img-wrapper" src="./assets/html-5.png" alt="">
+              <img class="img-wrapper" src="./assets/css-3.png" alt="">
+              <img class="img-wrapper" src="./assets/js.png" alt="">
+              <img class="img-wrapper" src="./assets/react.png" alt="">
             </div>
-        </div>
+          </div>
 
-         <div class="box">
-            <a href="https://lista-tarefas.netlify.app/" target="_blank"><img class="img-project" src="./assets/projects/project-4.PNG" alt="Projeto de uma lista de tarefas"></a>
-             <div class="box-description">
-                 <p class="description">To do list</p>
-             </div>
-         </div>
-
-         <div class="box">
-            <a href="https://currency-convert-wvn.netlify.app/" target="_blank"><img class="img-project" src="./assets/projects/project-5.PNG" alt="Projeto de um conversor de moedas utilizando a AwesomeAPI"></a>
-             <div class="box-description">
-                 <p class="description">Currency converter (AwesomeAPI)</p>
-             </div>
-         </div>
-
-
+          <div class="parent-tab">
+            <input type="radio" name="tab" id="tab-2">
+            <label for="tab-2">
+              <span>Graduação & Cursos</span>
+            </label>
+            <div class="content">
+              <p>Atualmente estou cursando análise e desenvolvimento de sistemas até dezembro de 2022. 
+                Além da faculdade faço parte do curso de especialização na área de desenvolvimento full-stack (DevClub)
+                ministrado pelo Rodolfo Mori. E sempre que possivel busco mini-cursos em plataformas como a Udemy e DIO.
+              </p>
+            </div>
+          </div>
+      
+          <div class="parent-tab">
+            <input type="radio" name="tab" id="tab-6">
+            <label for="tab-6">
+              <span>Projetos</span>
+            </label>
+            <div class="content">
+              <p>Confira os meus projetos acadêmicos que me proporcionaram conhecimento prático.</p>
+              <a href="./project-page/project.html"><button class="btn-project">Projetos<img src="./assets/arrow.png"></button></a>
+            </div>
+          </div>
     </section>
-
-    <div class="btn-more">
-        <a href="./project-page/project.html"><button class="btn-project">Clique aqui para ver mais<img src="./assets/arrow.png"></button></a>
-    </div>
 
 </body>
 <script src="./vanilla-tilt.js"></script>

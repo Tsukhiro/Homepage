@@ -8,7 +8,6 @@
 
 body {
     width: 100%;
-    height: 100vh;
     background: url(./assets/bg.jpg);
     background-position: center;
     background-size: cover;
@@ -21,7 +20,8 @@ body {
     height: 71px;
     padding: 35px 50px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 .text-section {
@@ -29,7 +29,7 @@ body {
     width: auto;
     height: auto;
     display: block;
-    align-items: flex-start;
+    text-align: center;
     justify-content: space-between;
 }
 
@@ -38,8 +38,7 @@ body {
     font-size: 64px;
     font-style: normal;
     text-transform: uppercase;
-    padding: 80px 0 0 55px;
-    width: 90%;
+    padding-top: 15px;
 }
 
 h2 {
@@ -56,8 +55,7 @@ h2 {
     color: white;
     font-size: 20px;
     font-style: normal;
-    padding: 30px 0 0 55px;
-    width: 70%;
+    padding: 40px;
 }
 
 a {
@@ -122,11 +120,12 @@ a {
     width: 150px;
     border: none;
     padding: 12px 10px;
+    margin: 5px;
     outline: none;
     color: white;
     border-radius: 6px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.1);
+    background: black;
     backdrop-filter: blur(5px);
     transition: all 0.5s ease-in-out;
 }
@@ -175,10 +174,132 @@ a {
 }
 
 .connect-me {
-    color: #FFFFFF;
-    font-size: 60px;
-    font-style: italic;
-    letter-spacing: -2.5px;
-    text-align: center;
+  color: #FFFFFF;
+  font-size: 60px;
+  font-style: italic;
+  letter-spacing: -2.5px;
+  text-align: center;
 }
+
+/* Section Accordion */
+
+
+.wrapper{
+  display: block;
+   margin: 0 auto;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.img-wrapper{
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.wrapper .parent-tab,
+.wrapper .child-tab{
+  margin-bottom: 8px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+}
+
+.wrapper .parent-tab label,
+.wrapper .child-tab label{
+  background: #111;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 3px;
+  position: relative;
+  z-index: 99;
+  transition: all 0.3s ease;
+}
+
+.wrapper .parent-tab label:hover{
+  background: #808080;
+}
+
+.parent-tab input:checked ~ label,
+.child-tab input:checked ~ label{
+  border-radius: 3px 3px 0 0;
+  background: #808080;
+}
+
+.wrapper label span{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 0 -1px 1px #808080;
+}
+
+.wrapper .child-tab label span{
+  font-size: 17px;
+}
+
+.parent-tab label .icon{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  color: #808080;
+  display: block;
+  background: #fff;
+  border-radius: 50%;
+  text-shadow: 0 -1px 1px #808080;
+}
+
+.wrapper .child-tab label .icon{
+  height: 27px;
+  width: 27px;
+}
+
+.parent-tab label .icon i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent-tab input:checked ~ label .icon i:before,
+.child-tab input:checked ~ label .icon i:before{
+  content: '\f068';
+}
+
+.wrapper .parent-tab .content,
+.wrapper .child-tab .sub-content{
+  max-height: 0px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0 0 3px 3px;
+  transition: all 0.4s ease;
+}
+
+.parent-tab input:checked ~ .content,
+.child-tab input:checked ~ .sub-content{
+  max-height: 100vh;
+}
+
+.tab-3 input:checked ~ .content{
+  padding: 15px 20px;
+}
+
+.parent-tab .content p,
+.child-tab .sub-content p{
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.child-tab .sub-content p{
+  font-size: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+  display: none;
+}
+
+  
 
