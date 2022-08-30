@@ -36,9 +36,12 @@ body {
 .hello {
     color: white;
     font-size: 64px;
-    font-style: normal;
     text-transform: uppercase;
     padding-top: 15px;
+}
+
+span{
+  color: #808080;
 }
 
 h2 {
@@ -107,16 +110,7 @@ a {
     margin-bottom: 50px;
 }
 
-.btn-more {
-    display: flex;
-    width: 100%;
-    max-width: 200px;
-    padding-top: 50px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.btn-project {
+.btn-main {
     width: 150px;
     border: none;
     padding: 12px 10px;
@@ -130,21 +124,44 @@ a {
     transition: all 0.5s ease-in-out;
 }
 
-.btn-project img {
+.btn-main img {
     width: 30px;
     display: none;
 }
 
-.btn-project:hover {
+.btn-main:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 170px;
+    background-color: #808080;
 }
 
-.btn-project:hover img {
+.btn-main:hover img {
     display: block;
+}
+
+.btn-project{
+  background: #808080;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+  font-family: 'Sarala';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #111111;
+}
+
+.btn-project:hover{
+  background-color: #111111;
+  color: white;
 }
 
 .social-media{
@@ -280,6 +297,7 @@ a {
 .parent-tab input:checked ~ .content,
 .child-tab input:checked ~ .sub-content{
   max-height: 100vh;
+  text-align: center;
 }
 
 .tab-3 input:checked ~ .content{
@@ -299,6 +317,20 @@ a {
 input[type="radio"],
 input[type="checkbox"]{
   display: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 600px){
+
+  .connect-me, .hello{
+    font-size: 40px;
+  }
+
+  .about-me{
+    font-size: 15px;
+  }
+
 }
 
   
