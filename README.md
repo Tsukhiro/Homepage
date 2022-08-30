@@ -1,8 +1,9 @@
-<h1 align="center">Homepage 👨‍💻</h1>
+<h1 align="center">Portfólio 👨‍💻</h1>
 
 <br>
-
-<p align="center"></p>
+<p align="center"> O projeto trata-se do meu site pessoal, foi desenvolvido com todo conhecimento que eu obtive em minha trajetória de estudo.
+Vou atualizar o Layout e adicionar novos projetos conforme for aparecendo e futuramente deixa-lo mais sofisticado.
+</p>
 <h4 align="center"> 
 	🚧 Status: Em andamento  🚧
 </h4>
@@ -14,27 +15,12 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![My Skills](https://skillicons.dev/icons?i=js,html,css)
 
 <br>
 <br>
 
-## 🎨 Preview do Layout
-
-<br>
-<br>
-
->Link: https://wagner-dev.com.br
-
-<br>
-
-<br>
-<br>
-
-
-## 👩‍💻 Criado por:
+## 👩‍💻 Desenvolvedor:
 
 <a href="https://www.linkedin.com/in/wagner-vitor-novais">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89936463?s=400&u=e299a61a15d52f1558fb44bd041f81fcbaa06b41&v=4" width="100px;" alt=""/>
