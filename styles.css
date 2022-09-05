@@ -108,6 +108,7 @@ body {
 
 .btn-main {
     width: 150px;
+    height: 46px;
     border: none;
     padding: 12px 10px;
     margin: 5px;
@@ -136,6 +137,10 @@ body {
 
 .btn-main:hover img {
     display: block;
+}
+
+.btn-return{
+  transform: rotate(180deg);
 }
 
 .btn-project{
