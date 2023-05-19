@@ -5,7 +5,7 @@
 Vou atualizar o Layout e adicionar novos projetos conforme for aparecendo e futuramente deixa-lo mais sofisticado.
 </p>
 <h4 align="center"> 
-	🚧 Status: Em andamento  🚧
+	🚧 Status: Em MANUTENÇÃO  🚧
 </h4>
 
 <br>
