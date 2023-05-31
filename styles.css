@@ -12,12 +12,16 @@ body{
     background-color: #3B3B3B;
 }
 
+main{
+    width: 100vw;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 16rem;
+    padding-top: 14rem;
 }
 
 .my-name{
@@ -137,6 +141,29 @@ body{
     color: #3B3B3B;
 }
 
+span{
+    color: #80E084;
+}
+
+.contact > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #CFCFCF;
+    margin: 2rem 2rem 0 2rem;
+}
+
+
+.small-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+}
 
 
 
@@ -179,7 +206,9 @@ body{
     }
    
     .visible-xs {
-     display:block;
+     display:flex;
+     justify-content: end;
+     margin: 2rem 1rem 0 0;
     }
    }
   
