@@ -16,6 +16,8 @@ main{
     width: 100vw;
 }
 
+/* Mobile */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -42,7 +44,7 @@ main{
     color: #CFCFCF;
 }
 
-.container2{
+.container-skills{
     display: flex;
     flex-direction: column;
     margin-top: 20rem;
@@ -100,7 +102,7 @@ main{
     font-size: 19px;
 }
 
-.container3{
+.container-project{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,8 +132,8 @@ main{
     padding: 5px;
 }
 
-.view-more{
-    width: 368px;
+.btn-view-more{
+    width: 90vw;
     height: 67px;
     border: none;
     background: #80E084;
@@ -168,11 +170,6 @@ span{
     margin: 2rem 2rem 5rem 2rem;
     gap: 2rem;
 }
-
-
-
-
-
 
 
 
