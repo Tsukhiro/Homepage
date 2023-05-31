@@ -21,7 +21,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 14rem;
+    padding-top: 7rem;
 }
 
 .my-name{
@@ -36,7 +36,7 @@ main{
 .my-carrer{
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
     color: #CFCFCF;
@@ -45,7 +45,7 @@ main{
 .container2{
     display: flex;
     flex-direction: column;
-    margin-top: 27rem;
+    margin-top: 20rem;
 }
 
 .about-me{
@@ -66,7 +66,7 @@ main{
 .about-me > p{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -76,7 +76,7 @@ main{
 
 .skills > h2{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .skills-carrer{
@@ -89,7 +89,7 @@ main{
 .skills-carrer > ul{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 24px;
     color: #CFCFCF;
     margin: 1rem;
@@ -97,6 +97,7 @@ main{
 
 .skills-carrer > ul > p{
     font-weight: 700;
+    font-size: 19px;
 }
 
 .container3{
@@ -108,22 +109,25 @@ main{
 }
 
 .project{
+    width: 90vw;
     margin: 2rem;
     border: 1px solid #80E084;
 }
 
 .project > figure > img{
+    width: 90vw;
     border: 1px solid #80E084;
 }
 
 .project > figure > figcaption{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #80E084;
     margin-left: 0.50rem;
+    padding: 5px;
 }
 
 .view-more{
@@ -132,7 +136,7 @@ main{
     border: none;
     background: #80E084;
     border-radius: 20px;
-    margin-top: 3rem;
+    margin-top: 2rem;
 
     font-style: normal;
     font-weight: 700;
@@ -148,7 +152,7 @@ span{
 .contact > p{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -161,7 +165,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 2rem 2rem 5rem 2rem;
     gap: 2rem;
 }
 
