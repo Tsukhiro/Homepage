@@ -4,23 +4,183 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+    color:inherit
 
 }
 
 body{
     background-color: #3B3B3B;
 }
-.nav-links{
-    display: flex;
-    margin: 40px 40px 0 0;
-    justify-content: flex-end;
-    gap: 40px;
-}
 
 .container{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-top: 269px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16rem;
 }
 
+.my-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #80E084;
+    margin-top: 1rem;
+}
+
+.my-carrer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #CFCFCF;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 27rem;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtittle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #80E084;
+}
+
+.about-me > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #CFCFCF;
+    margin: 2rem 2rem 0 2rem;
+}
+
+.skills > h2{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.skills-carrer{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 2rem;
+    flex-direction: column;
+}
+
+.skills-carrer > ul{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #CFCFCF;
+    margin: 1rem;
+}
+
+.skills-carrer > ul > p{
+    font-weight: 700;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.project{
+    margin: 2rem;
+    border: 1px solid #80E084;
+}
+
+.project > figure > img{
+    border: 1px solid #80E084;
+}
+
+.project > figure > figcaption{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #80E084;
+    margin-left: 0.50rem;
+}
+
+.view-more{
+    width: 368px;
+    height: 67px;
+    border: none;
+    background: #80E084;
+    border-radius: 20px;
+    margin-top: 3rem;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #3B3B3B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .hidden-xs{
+     display:none;
+    }
+   
+    .visible-xs {
+     display:block;
+    }
+   }
+  
+  

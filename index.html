@@ -13,31 +13,113 @@
 </head>
 <body>
     
-<main>
   <header>
-    <nav class="nav-links">
-      <a href="#">Sobre mim</a>
-      <a href="#">Projetos</a>
-      <a href="#">Contato</a>
+    <nav class="hidden-xs">
+      <ul class="menu">
+        <li><a href="#">Sobre mim</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
     </nav>
   </header>
 
-  <div class="container">
-    <img src="./assets/img/wvn.png" class="img-wagner" alt="foto do Wagner Vitor Novais">
-    <h1 class="meu-nome">Wagner Vitor Novais</h1>
-    <p class="minha-descrição">Desenvolvedor front end & UX Designer</p>
+<main>
 
-    <div class="contact">
+  <section class="container">
+    <figure><img src="./assets/img/wvn.png" class="img-wagner" alt="foto do Wagner Vitor Novais"></figure>
+
+    <h1 class="my-name">Wagner Vitor Novais</h1>
+    <p class="my-carrer">Desenvolvedor front end</p>
+
+    <figure class="social-link hidden-xs">
       <img src="./assets/img/Linkedin.png" alt="Logo do linkedin">
       <img src="./assets/img/Behance.png" alt="Logo do Behance">
       <img src="./assets/img/Github.png" alt="Logo do Github">
+    </figure>
+  </section>
+
+  <section class="container2">
+    <div class="about-me">
+      <h2 class="subtittle">Sobre mim</h2>
+      <p>Eu me chamo Wagner, tenho 25 anos, sou formado em análise e desenvolvimento de sistemas e me especializando em desenvolvimento front end. Estou buscando oportunidades e desafios nessa área.
+        Meu grande objetivo é fazer parte de uma empresa onde eu possa ajudar todos a atingir seus objetivos e aprender junto com isso! Conto com muita força de vontade para aprender!</p>
     </div>
-  </div>
+
+    <div class="skills about-me">
+      <h2 class="subtittle">Habilidades</h2>
+        <div class="skills-carrer">
+
+            <ul>
+              <p>Front-End</p>
+              <li>HTML</li>
+              <li>Css</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Git</li>
+              <li>Github</li>
+            </ul>
 
 
 
+            <ul>
+              <p>UX Design</p>
+              <li>Diamante Duplo</li>
+              <li>Personas</li>
+              <li>User Journey</li>
+              <li>Wireframes</li>
+              <li>Teste de Usabilidade</li>
+            </ul>
+
+
+            <ul>
+              <p>Ferramentas</p>
+              <li>VSCode</li>
+              <li>Figma</li>
+            </ul>
+
+
+        </div>
+    </div>
+  </section>
+
+  <section class="container3">
+    <h3 class="subtittle">Projetos</h3>
+
+    <div class="project">
+      <figure>
+        <img src="./assets/img/Mask group.png" alt="">
+        <figcaption>
+            <li>React.js</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="project">
+      <figure>
+        <img src="./assets/img/Mask group (1).png" alt="">
+        <figcaption>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </figcaption>
+      </figure>
+    </div>
+
+    <button class="view-more"><a href="">Ver mais</a></button>
+
+  </section>
+
+  <section class="contact">
+    <h2>Contato</h2>
+      <p>
+        Se você gostou de me conhecer brevemente, não hesite em entrar em contato comigo! Estou sempre procurando novas oportunidades para aplicar minhas habilidades e conhecimentos e gostaria de falar mais sobre minhas qualificações e experiências.
+        Fico aguardando ansiosamente seu contato!
+      </p>
+  </section>
 </main>
 
 </body>
-
+<script src="./script.js"></script>
 </html>
