@@ -10,6 +10,7 @@
 
 body{
     background-color: #3B3B3B;
+    overflow-x: hidden;
 }
 
 main{
@@ -23,7 +24,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 11rem;
+    padding-top: 15rem;
 }
 
 .my-name{
@@ -49,6 +50,11 @@ main{
     color: #CFCFCF;
 }
 
+.social-link > img{
+    width: 50px;
+    margin: 10px;
+}
+
 .container-skills{
     display: flex;
     flex-direction: column;
@@ -60,7 +66,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .subtittle{
@@ -108,13 +114,70 @@ main{
 }
 
 .container-project{
+    margin: 1rem;
+}
+
+.project > figure > img{
+    margin-top: 30px;
+}
+
+.project > h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 10px;
+    color: #80E084;
+}
+
+.project > div{
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8695A4;
+}
+
+.project > div > button{
+    width: 77px;
+    height: 31px;
+    background: #80E084;
+    border-radius: 20px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 17px;
+    color: #3B3B3B;
+}
+
+.project > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 19px;
+    color: #CFCFCF;
+}
+
+
+
+.container-contact{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    margin: 5rem 0 0 2rem;
+    margin: 5rem 0 0 1rem;
 }
-
 
 span{
     color: #80E084;
@@ -144,48 +207,71 @@ footer > p{
     text-align: center;
     font-size: 16px;
     color: #CFCFCF;
+    margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 576px) {
     .hidden-xs{
      display:none;
     }
-   
-    .visible-xs {
-     display:flex;
-     justify-content: end;
-     margin: 2rem 1rem 0 0;
+}
+  
+
+
+@media screen and (min-width: 577px){
+
+    .hidden-xs{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: -0.5px;
+        color: #80E084;
+        margin: 1.5rem;
     }
-   }
+
+    .hidden-xs > ul >li{
+        list-style-type: none;
+    }
+
+    .social-link{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .social-link > img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+}
+
   
-  
+@media screen and (min-width: 1144px){
+
+.img-wagner{
+    width: 200px;
+    height: 200px;
+}
+
+.my-name{
+    font-size: 40px;
+}
+
+.my-carrer{
+    font-size: 25px;
+}
+
+.social-link > img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.subtittle{
+    font-size: 40px;
+}
+}
