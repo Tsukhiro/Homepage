@@ -23,7 +23,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 7rem;
+    padding-top: 11rem;
 }
 
 .my-name{
@@ -33,6 +33,11 @@ main{
     line-height: 36px;
     color: #80E084;
     margin-top: 1rem;
+}
+
+.img-wagner{
+    width: 169px;
+    height: 169px;
 }
 
 .my-carrer{
@@ -47,14 +52,15 @@ main{
 .container-skills{
     display: flex;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 25rem;
 }
 
 .about-me{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    padding-left: 2rem;
 }
 
 .subtittle{
@@ -68,12 +74,12 @@ main{
 .about-me > p{
     font-style: normal;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0.5px;
     color: #CFCFCF;
-    margin: 2rem 2rem 0 2rem;
+    margin: 2rem 2rem 0 0;
 }
 
 .skills > h2{
@@ -84,7 +90,6 @@ main{
 .skills-carrer{
     display: flex;
     align-self: flex-start;
-    margin-left: 2rem;
     flex-direction: column;
 }
 
@@ -105,47 +110,11 @@ main{
 .container-project{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    margin-top: 5rem;
+    margin: 5rem 0 0 2rem;
 }
 
-.project{
-    width: 90vw;
-    margin: 2rem;
-    border: 1px solid #80E084;
-}
-
-.project > figure > img{
-    width: 90vw;
-    border: 1px solid #80E084;
-}
-
-.project > figure > figcaption{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #80E084;
-    margin-left: 0.50rem;
-    padding: 5px;
-}
-
-.btn-view-more{
-    width: 90vw;
-    height: 67px;
-    border: none;
-    background: #80E084;
-    border-radius: 20px;
-    margin-top: 2rem;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: #3B3B3B;
-}
 
 span{
     color: #80E084;
@@ -156,10 +125,10 @@ span{
     font-weight: 300;
     font-size: 17px;
     line-height: 24px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0.5px;
     color: #CFCFCF;
-    margin: 2rem 2rem 0 2rem;
+    margin: 2rem 2rem 0 0;
 }
 
 
@@ -167,8 +136,14 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 2rem 5rem 2rem;
+    margin: 7rem 2rem 1rem 2rem;
     gap: 2rem;
+}
+
+footer > p{
+    text-align: center;
+    font-size: 16px;
+    color: #CFCFCF;
 }
 
 
