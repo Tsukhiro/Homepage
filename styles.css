@@ -142,6 +142,10 @@ main{
     color: #8695A4;
 }
 
+.project > div > p{
+    padding-top: 7px;
+}
+
 .project > div > button{
     width: 77px;
     height: 31px;
@@ -210,7 +214,6 @@ footer > p{
     margin-bottom: 2rem;
 }
 
-
 @media screen and (max-width: 576px) {
     .hidden-xs{
      display:none;
@@ -223,15 +226,15 @@ footer > p{
 
     .hidden-xs{
         display:flex;
-        flex-flow: row wrap;
         justify-content: flex-end;
+        gap: 20px;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 36px;
         letter-spacing: -0.5px;
         color: #80E084;
-        margin: 1.5rem;
+        margin: 1.5rem 2.5rem 0 0;
     }
 
     .hidden-xs > ul >li{
@@ -252,6 +255,7 @@ footer > p{
 
   
 @media screen and (min-width: 1144px){
+
 
 .img-wagner{
     width: 200px;
