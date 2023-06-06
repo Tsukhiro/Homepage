@@ -8,21 +8,12 @@
 
 body {
     width: 100%;
-    background: url(./assets/img/bg.jpg);
+    background: url(./assets/img/bg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.nav-bar {
-    display: flex;
-    width: 100%;
-    height: 71px;
-    padding: 35px 50px;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-}
 
 .text-section {
     flex: 0 0 auto;
@@ -64,22 +55,6 @@ body {
     font-family: 'Righteous';
 }
 
-.logo {
-    font-size: 30px;
-}
-
-.box-container {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    max-width: 100vw;
-    flex-wrap: wrap;
-    z-index: 1;
-    margin-top: 60px;
-    gap: 70px;
-}
-
 .box {
     width: 350px;
     height: 200px;
@@ -87,118 +62,6 @@ body {
     border-radius: 15px;
 }
 
-.img-project {
-    width: 350px;
-    height: 200px;
-    border-radius: 15px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-}
-
-.box-description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    position: relative;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
-
-.btn-main {
-    width: 150px;
-    border: none;
-    padding: 12px 10px;
-    margin: 5px;
-    outline: none;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    background: black;
-    backdrop-filter: blur(5px);
-    transition: all 0.5s ease-in-out;
-}
-
-.btn-main img {
-    width: 30px;
-    display: none;
-}
-
-.btn-main:hover {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 170px;
-    background-color: #808080;
-}
-
-.btn-main:hover img {
-    display: block;
-}
-
-.btn-project{
-  background: #111111;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  border: none;
-  width: 180px;
-  height: 40px;
-  cursor: pointer;
-  margin-bottom: 10px;
-
-  font-family: 'Sarala';
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.btn-project:hover{
-  background-color: #808080;
-  color: #111111;
-}
-
-.social-media{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-}
-
-.img-social {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-}
-
-.container-social {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
-    border-radius: 60px;
-    margin-top: 5%;
-}
-
-.connect-me {
-  color: #808080;
-  text-shadow: 
-  -1px -1px 0px #FFF, 
-  -1px 1px 0px #FFF,                    
-   1px -1px 0px #FFF,                  
-   1px 0px 0px #FFF;
-  font-size: 60px;
-  letter-spacing: -2.5px;
-  text-align: center;
-  font-family: 'Righteous';
-}
 
 /* Section Accordion */
 
@@ -325,7 +188,7 @@ input[type="checkbox"]{
 
 @media screen and (max-width: 600px){
 
-  .connect-me, .hello{
+  .hello{
     font-size: 40px;
   }
 
