@@ -6,157 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="./assets/img/wvn.png" type="image/png">
     <link rel="icon" type="imagem/png" href="./assets/img/icon.png"/>
     <title>Portfólio Wagner</title>
 </head>
 <body>
     
-  <header>
-    <nav class="hidden-xs">
-        <a href="#">Sobre mim</a>
-        <a href="#">Projetos</a>
-        <a href="#">Contato</a>
-    </nav>
-  </header>
 
-<main>
+  <main>
+      <section class="text-section">
+          <h1 class="hello">Olá, Seja <span class="hello-span">bem vindo(a).</span></h1>
+          <p class="about-me"> Eu me chamo Wagner, tenho 25 anos, sou formado em análise e desenvolvimento de sistemas e me especializando em desenvolvimento front end. Estou buscando oportunidades e desafios nessa área.
+            Meu grande objetivo é fazer parte de uma empresa onde eu possa ajudar todos a atingir seus objetivos e aprender junto com isso! Conto com muita força de vontade para aprender!
+          </p>
+      </section>
 
-  <section class="container">
-    <figure><img src="./assets/img/wvn.png" class="img-wagner" alt="foto do Wagner Vitor Novais"></figure>
+      <section class="wrapper"> 
+          <div class="parent-tab">
+              <input type="radio" name="tab" id="tab-1" checked>
+              <label for="tab-1">
+                <span>Skills</span>
+              </label>
+              <div class="content">
+                <img class="img-wrapper" src="./assets/img/html-5.png" alt="">
+                <img class="img-wrapper" src="./assets/img/css-3.png" alt="">
+                <img class="img-wrapper" src="./assets/img/js.png" alt="">
+                <img class="img-wrapper" src="./assets/img/react.png" alt="">
+              </div>
+            </div>
 
-    <h1 class="my-name">Wagner Vitor Novais</h1>
-    <p class="my-carrer">Desenvolvedor front end</p>
-
-    <figure class="social-link">
-      <img src="./assets/img/Linkedin.png" alt="Logo do linkedin">
-      <img src="./assets/img/Behance.png" alt="Logo do Behance">
-      <img src="./assets/img/Github.png" alt="Logo do Github">
-    </figure>
-
-  </section>
-
-  <section class="container-skills">
-    <div class="about-me">
-      <h2 class="subtittle">Sobre mim</h2>
-      <p>Eu me chamo Wagner, tenho 25 anos, sou formado em análise e desenvolvimento de sistemas e me especializando em desenvolvimento front end. Estou buscando oportunidades e desafios nessa área.
-        Meu grande objetivo é fazer parte de uma empresa onde eu possa ajudar todos a atingir seus objetivos e aprender junto com isso! Conto com muita força de vontade para aprender!</p>
-    </div>
-
-    <div class="skills about-me">
-      <h2 class="subtittle">Habilidades</h2>
-        <div class="skills-carrer">
-
-            <ul>
-              <p>Front-End</p>
-              <li>HTML</li>
-              <li>Css</li>
-              <li>JavaScript</li>
-              <li>React.js</li>
-              <li>Git</li>
-              <li>Github</li>
-            </ul>
-
-
-
-            <ul>
-              <p>UX Design</p>
-              <li>Diamante Duplo</li>
-              <li>Personas</li>
-              <li>User Journey</li>
-              <li>Wireframes</li>
-              <li>Teste de Usabilidade</li>
-            </ul>
-
-
-            <ul>
-              <p>Ferramentas</p>
-              <li>VSCode</li>
-              <li>Figma</li>
-            </ul>
-
-
-        </div>
-    </div>
-  </section>
-
-  <section class="container-project">
-    <h3 class="subtittle">Projetos</h3>
-
-    <div class="project">
-      <figure>
-        <img src="./assets/img/projeto-register-user.png" alt="">
-      </figure>
-
-      <h5>Register User</h5>
-
-      <div>
-        <button>2023</button>
-        <p>REACT.JS NODE.JS</p>
-      </div>
-
-      <P>O projeto trata-se de uma aplicação full stack para realizar o cadastramento de novos usuários com os dados: nome e idade.</P>
-    </div>
-
-    <div class="project">
-      <figure>
-        <img src="./assets/img/projeto-poke-api.png" alt="">
-      </figure>
-
-      <h5>Poke API</h5>
-
-      <div class="project-item">
-        <button>2022</button>
-        <p>HTML CSS JAVASCRIPT API</p>
-      </div>
-
-      <P>O projeto elaborado trata-se de uma Pokédex onde, através do nome ou número de identificação do Pokémon, traz as informações através da API PokéAPI, como a aparência do Pokémon, nome e tipo.</P>
-    </div>
-
-    <div class="project">
-      <figure>
-        <img src="./assets/img/projeto-currency-converter.png" alt="">
-      </figure>
-
-      <h5>Currency Converter</h5>
-
-      <div class="project-item">
-        <button>2022</button>
-        <p>HTML CSS JAVASCRIPT API</p>
-      </div>
-
-      <P>O projeto elaborado trata-se de um conversor de moeda com o consumo da API de Cotações de Moedas (AwesomeAPI), onde é feita a conversão de Reais para Dólar $ ou Euro € com base no maior valor do dia.</P>
-    </div>
-
-</section>
-
-  
-
-  <section class="container-contact">
-  
-    <div class="contact">
-      <h2 class="subtittle">Contato</h2>
-        <p>
-          Se você gostou de me conhecer brevemente, não hesite em entrar em contato comigo! Estou sempre <span>novas oportunidades</span> para aplicar minhas habilidades e conhecimentos e gostaria de falar mais sobre minhas qualificações e experiências.
-          <span>Fico aguardando ansiosamente seu contato!</span>
-        </p>
-    </div>
-  </section>
-
-  <footer>
-    <figure class="small-img">
-      <a href="https://www.behance.net/wagnervn" target="_blank"><img src="./assets/img/BehanceP.png" alt=""></a>
-      <a href="https://github.com/Tsukhiro" target="_blank"><img src="./assets/img/GithubP.png" alt=""></a>
-      <a href="https://www.linkedin.com/in/wagner-vitor-novais/" target="_blank"><img src="./assets/img/LinkedinP.png" alt=""></a>
-      <a href="mailto:wagner.vn.dev@outlook.com" target="_blank"><img src="./assets/img/EmailP.png" alt=""></a>
-    </figure>
-    <p>Feito com todo ❤️ por <a href="https://www.linkedin.com/in/wagner-vitor-novais/">Wagner</a></p>
-  </footer>
-
-</main>
+            <div class="parent-tab">
+              <input type="radio" name="tab" id="tab-2">
+              <label for="tab-2">
+                <span>Graduação & Cursos</span>
+              </label>
+              <div class="content">
+                <p>Análise e desenvolvimento de sistemas - Anhanguera. <br> 2021 até 2022. <br><br>
+                  Curso desenvolvedor Full-Stack - DevClub.  <br> 2021 até 2023.
+                </p>
+              </div>
+            </div>
+        
+            <div class="parent-tab">
+              <input type="radio" name="tab" id="tab-6">
+              <label for="tab-6">
+                <span>Projetos</span>
+              </label>
+              <div class="content">
+                <p>Confira os projetos que me proporcionaram conhecimento prático.</p>
+                <a href="./assets/project/project.html"><button class="btn-project">Meus Projetos</button></a>
+                <p>*Para obter informações detalhadas do projeto ou o código fonte acesse meu <a href="https://github.com/Tsukhiro?tab=repositories" target="_blank">Github</a>.</p>
+              </div>
+            </div>
+      </section>
+  </main>
 
 </body>
-  <script src="./script.js"></script>
+
 </html>
