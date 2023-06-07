@@ -10,7 +10,8 @@ body {
     width: 100%;
     background: url(./assets/img/bg.png);
     background-position: center;
-    background-size: cover;
+    overflow-x: hidden;
+    background-size: cover; 
     background-attachment: fixed;
 }
 
@@ -24,42 +25,39 @@ body {
     justify-content: space-between;
 }
 
+.text-section > h2{
+  color: #CFCFCF;
+  font-size: 40px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+
 .hello {
-    color: white;
-    font-size: 64px;
+    color: #80E084;
+    font-size: 50px;
     text-transform: uppercase;
-    padding-top: 15px;
-    font-family: 'Righteous';
-}
-
-.hello-span{
-  color: #808080;
-  text-shadow: 
-  -1px -1px 0px #FFF, 
-  -1px 1px 0px #FFF,                    
-   1px -1px 0px #FFF,                  
-   1px 0px 0px #FFF;
-}
-
-.about-me-span{
-  color: #808080;
-  text-shadow: 0px 0px 2px #FFF,    
+    margin-top: 1rem;
 }
 
 .about-me {
-    color: white;
+    color: #CFCFCF;
     width: 100vw;
     font-size: 20px;
     font-style: normal;
-    padding: 40px;
-    font-family: 'Righteous';
+    padding: 1rem 20rem 1rem 20rem;
 }
 
-.box {
-    width: 350px;
-    height: 200px;
-    backdrop-filter: blur(2px);
-    border-radius: 15px;
+.social-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.social-icon > img{
+  width: 60px;
 }
 
 
@@ -88,7 +86,7 @@ body {
 
 .wrapper .parent-tab label,
 .wrapper .child-tab label{
-  background: #111;
+  background: #3B3B3B;
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -111,7 +109,7 @@ body {
 }
 
 .wrapper label span{
-  color: #fff;
+  color: #80E084;
   font-size: 18px;
   font-weight: 500;
   text-shadow: 0 -1px 1px #808080;
@@ -128,7 +126,7 @@ body {
   font-size: 15px;
   color: #808080;
   display: block;
-  background: #fff;
+  background: #CFCFCF;
   border-radius: 50%;
   text-shadow: 0 -1px 1px #808080;
 }
@@ -184,16 +182,89 @@ input[type="checkbox"]{
   display: none;
 }
 
+
+
+/*Project */
+
+.project > figure > img{
+  margin-top: 20px;
+}
+
+.project > h5{
+  font-style: normal;
+  font-size: 25px;
+  color: #80E084;
+}
+
+.project > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1px;
+  font-style: normal;
+  color: #8695A4;
+}
+
+.project > div > button{
+  width: 77px;
+  height: 31px;
+  background: #80E084;
+  border-radius: 20px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  color: #3B3B3B;
+}
+
+.project > p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3B3B3B;
+}
+
+.btn-project{
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-bottom: 1rem;
+  background: #80E084;
+  border-radius: 20px;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #3B3B3B;
+}
+
+.btn-project:hover{
+    opacity: 0.9;
+}
+
+.btn-project:active{
+    opacity: 0.7;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 600px){
 
   .hello{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .about-me{
-    font-size: 15px;
+    font-size: 17px;
+    padding: 30px;
   }
 
 }
