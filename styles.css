@@ -56,8 +56,8 @@ body {
   padding-bottom: 1rem;
 }
 
-.social-icon > img{
-  width: 60px;
+.social-icon > a > img{
+  width: 50px;
 }
 
 
@@ -152,14 +152,14 @@ body {
 .wrapper .child-tab .sub-content{
   max-height: 0px;
   overflow: hidden;
-  background: #fff;
+  background: #CFCFCF;
   border-radius: 0 0 3px 3px;
   transition: all 0.4s ease;
 }
 
 .parent-tab input:checked ~ .content,
 .child-tab input:checked ~ .sub-content{
-  max-height: 100vh;
+  max-height: 100%;
   text-align: center;
 }
 
@@ -193,7 +193,7 @@ input[type="checkbox"]{
 .project > h5{
   font-style: normal;
   font-size: 25px;
-  color: #80E084;
+  color: #3B3B3B;
 }
 
 .project > div{
