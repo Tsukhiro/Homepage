@@ -8,7 +8,7 @@
 
 body {
     width: 100%;
-    background-color: #3B3B3B;
+    background: url(./assets/img/bg.png);
     background-position: center;
     overflow-x: hidden;
     background-size: cover; 
