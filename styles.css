@@ -8,7 +8,7 @@
 
 body {
     width: 100%;
-    background: url(./assets/img/bg.png);
+    background-color: #3B3B3B;
     background-position: center;
     overflow-x: hidden;
     background-size: cover; 
@@ -187,6 +187,7 @@ input[type="checkbox"]{
 /*Project */
 
 .project > figure > img{
+  max-width: 80vw;
   margin-top: 20px;
 }
 
